@@ -1,6 +1,6 @@
 # UCI Class Availablity Notification Service
 
-This project is a continuous monitoring service designed to run in the background, ideal for server or Raspberry Pi environments with a constant internet connection. It leverages several Python packages to perform tasks such as scheduling events, making HTTP requests, parsing HTML content, and sending notifications.
+The Python script continuously monitors the availability of a specified class every 30 minutes. If the class becomes available for enrollment or waitlisting, the script promptly notifies the user via email or SMS using a third-party service.
 
 ## Prerequisites
 
